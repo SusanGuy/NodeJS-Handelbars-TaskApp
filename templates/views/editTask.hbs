@@ -1,0 +1,19 @@
+{{>header}}
+
+
+<form action='/taskboard/update/{{task._id}}' method='post' class="dai">
+    <h1 class='mama'>Edit your Task</h1>
+    <input class='uncle' name='description' value="{{task.description}}" type=" text" required="">
+    <div class='arko'>
+        {{#if task.completed}}
+
+        <input type="checkbox" id="check" name="completed" checked value="true" />
+        {{else}}
+        <input type="checkbox" id="check" name="completed" value="true" />
+        {{/if}}
+        <label class='check' for="check">
+            Completed Status
+        </label>
+    </div>
+    <button class='daju'>Submit</button>
+</form>

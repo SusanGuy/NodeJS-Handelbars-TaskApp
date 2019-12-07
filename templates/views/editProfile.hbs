@@ -1,0 +1,23 @@
+{{>header}}
+<div class="panel">
+    <img class="panel__avatar"
+        src="http://icons.iconarchive.com/icons/jonathan-rey/simpsons/256/Bart-Simpson-01-icon.png" alt="avatar" />
+    <form action="/users/edit" method="post" class="inputs">
+        <div class="inputs__item">
+            <label for="name" class="inputs__label">Name</label>
+            <input type="text" name='name' class="inputs__input" id="name" value="{{user.name}}" required />
+        </div>
+        <div class="inputs__item inputs__item--new">
+            <label for="email" class="inputs__label">Email</label>
+            <input type="text" name='email' class="inputs__input" id="email" value="{{user.email}}" required />
+        </div>
+        <div class="inputs__item inputs__item--cta">
+            <input type="submit" class="btnvai" value="Update Profile" />
+        </div>
+        {{#if message}}
+        <div class='error'> {{message.err_msg}}</div>
+
+        {{/if}}
+
+    </form>
+</div>

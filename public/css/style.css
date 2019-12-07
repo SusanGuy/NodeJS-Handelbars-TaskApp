@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.heading {
+    text-align: center;
+    margin: 10px;
+    color: slategray;
+}
+
+.navbar {
+    background: #127cb9d2 !important;
+    padding: 1rem 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin: 0 15px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navbar .container {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.error {
+    margin: 10px 0px;
+    color: #d8000c;
+}
+
+.success {
+    margin: 10px 0px;
+    color: #9fbd6b;
+}
+
+
+/* Copied*/
+
+.my-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-left: 340px;
+    width: 50%;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.my-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.my-card .container {
+    padding: 10px 16px 10px 30px;
+}
+
+.my-card .searchform {
+    vertical-align: center;
+}
+
+.my-card .status {
+    width: 100%;
+    height: 40px;
+    margin: 25px;
+    padding: 5px 20px;
+}
+
+.my-card .card-head {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.my-card .submitbutton {
+    align-content: center;
+    margin: 10px 0 10px 35%;
+}
+
+.hello {
+    text-decoration: none;
+    font-size: 20px;
+    color: #398d7f;
+}
+
+.icon {
+    padding-left: inherit;
+    padding-right: 20px;
+}
+
+.aa {
+    color: #1a84b6;
+    text-decoration: none;
+}
+
+.aa:hover {
+    text-decoration: none;
+}
+
+.sar {
+    font-style: normal;
+    padding-left: 2px;
+}
+
+.mark-status {
+    padding-left: 5px;
+}
+
+.custom-image {
+    border-radius: 52%;
+    margin-left: 15px;
+    height: 32px;
+    width: 32px;
+}
+
+
+/*Profile Image */
+
+.emp-profile {
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img {
+    width: 70%;
+    height: 100%;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-head h5 {
+    color: #333;
+}
+
+.profile-head h6 {
+    color: #0062cc;
+}
+
+.profile-edit-btn {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.profile-delete-btn {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 2%;
+    font-weight: 600;
+    color: #c33c1b;
+    cursor: pointer;
+}
+
+.profile-delete-btn:hover {
+    text-decoration: none;
+    color: #c33c1b;
+}
+
+.profile-edit-btn:hover {
+    text-decoration: none;
+}
+
+.proile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+
+.proile-rating span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+    font-weight: 600;
+    border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #0062cc;
+}
+
+.profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+.profile-work p {
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.profile-work a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile-work ul {
+    list-style: none;
+}
+
+.profile-tab label {
+    font-weight: 600;
+}
+
+.profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+}
+
+.dai {
+    box-sizing: border-box;
+    width: 260px;
+    margin: 100px auto 0;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 40px;
+    border-radius: 3px;
+}
+
+.mama {
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    font-size: 18px;
+    background: #127cb9d2;
+    color: white;
+    line-height: 150%;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.uncle {
+    margin: 40px 25px;
+    width: 200px;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #127cb9d2;
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 96%, #127cb9d2 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: darken(#1abc9c, 20%);
+}
+
+.daju {
+    border: none;
+    background: #127cb9d2;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.daju:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arko {
+    margin: 40px 25px;
+}
+
+.checkbox {
+    border-radius: 50%;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.check {
+    color: #127cb9d2;
+    font-style: italic;
+}
+
+.panel {
+    background: #35363c;
+    margin: 40px auto;
+    width: 300px;
+    border: 1px solid #46464c;
+    border-radius: 3px;
+    padding: 40px;
+    box-shadow: 1px 3px #26272c;
+}
+
+.panel__avatar {
+    background: #fff;
+    border: 8px solid #46393d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 40px;
+    display: block;
+}
+
+.inputs__item {
+    padding-bottom: 40px;
+}
+
+.inputs__label {
+    color: #a64c41;
+    display: block;
+}
+
+.inputs__input {
+    border: none;
+    border-bottom: 1px solid #6b6c70;
+    background: #35363c;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font: 16px "Helvetica Neue", Helvetica, sans-serif;
+    color: #a64c41;
+}
+
+.inputs__input:focus {
+    outline: none;
+}
+
+.inputs__label,
+.inputs__input {
+    color: #6498bb;
+}
+
+.inputs__item--cta {
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.btnvai {
+    border: none;
+    background: #a64c41;
+    color: #c8bda0;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 12px 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+{{>header}}
+
+
+<div class="drppnt">
+    <h2 class="heading">{{title}}</h2>
+    {{#each tasks}}
+    <div class="my-card">
+        <div class="container">
+            <div class="heading">Task Id: {{_id}}</div>
+            <div class='status'><span class='card-head'>Description: <span class='hello'>{{description}}</span></span>
+            </div>
+            {{#if completed}}
+            <div class='status'><span class='card-head'>Status: <span class='hello'>Completed</span> </span>
+            </div>
+            {{else}}
+            <div class='status'><span class='card-head'>Status: <span class='hello'>Not Completed</span>
+                    <span class='mark-status'><a class='aa' href='/taskboard/updateStatus/{{_id}}'><i
+                                class="fas fa-check"></i><span class='sar'>Mark Completed</span></a></span></span></div>
+            {{/if}}
+
+            <span class='icon'></span><a class='aa' href='/taskboard/update/{{_id}}'><i class="fas fa-edit"></i><span
+                    class='sar'>Edit</span></a></span>
+            <span class='icon'><a class='aa' href='/taskboard/delete/{{_id}}'><i class="fas fa-trash"></i><span
+                        class='sar'>Delete</span></a></span>
+        </div>
+
+    </div>
+    {{/each}}
+</div>
