@@ -46,7 +46,7 @@ app.use(passport.session());
 
 app.use((req, res, next) => {
     res.locals.user = req.user || null;
-    res.locals.host = "http://localhost:" + port;
+    res.locals.host = process.env.DOMAIN + port;
     next();
 });
 
